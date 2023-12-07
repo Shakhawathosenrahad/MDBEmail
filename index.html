@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: #fff">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First email template</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;1,200&display=swap');
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Raleway', sans-serif;
+        }
+
+        body {
+            background: #ccc;
+            width: min(800px, 90%);
+            margin: 10px auto;
+            border-radius: 5px;
+            text-align: right;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 30px 20px;
+        }
+
+        header a img {
+            width: 200px;
+        }
+
+        .social img {
+            width: 40px;
+            margin: 0 8px;
+        }
+
+        .banner img {
+            width: 100%;
+            object-fit: cover;
+        }
+
+        h1 {
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 + p {
+            padding: 0 20px 10px 20px;
+            text-align: justify;
+        }
+
+        button {
+            padding: 10px 30px;
+            margin: 5px 20px;
+            color: #fff;
+            background: #000;
+            font-size: 1.2rem;
+            cursor: pointer;
+            border: none;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin: 15px;
+            border-top: 2px solid #000;
+        }
+
+        @media (width <= 550px) {
+            header {
+                flex-direction: column;
+                gap: 20px;
+                padding: 15px 0;
+        }
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <a href="#">
+            <img src="./img/logo.png">
+        </a>
+        <div class="social">
+            <a href="#"><img src="./img/fb-color.png"></a>
+            <a href="#"><img src="./img/in-color.png"></a>
+            <a href="#"><img src="./img/tw-color.png"></a>
+            <a href="#"><img src="./img/yt-color.png"></a>
+        </div>
+    </header>
+    <div class="banner">
+        <img src="./img/banner.png">
+    </div>
+    <h1>Learn how to create emails in HTML!</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, perferendis? Numquam dignissimos, ipsam culpa pariatur veniam dolorum voluptatum magnam iste accusantium itaque minima beatae sint autem provident facere voluptate laborum ea unde molestiae modi vel temporibus sit! Eos quidem ad ipsam facere aperiam aspernatur, sit cum ducimus quam iste deserunt nam ex quos perspiciatis consequatur rerum neque ratione modi assumenda maxime ut! Rerum a veniam vel! Fuga corporis ipsum omnis animi esse blanditiis, odit doloribus. Similique distinctio autem repellat vitae, vel maxime dolor blanditiis ipsa praesentium! Consequuntuiste blanditiis dolor. Iste dolorum alias explicabo porro, ut accusantium molestiae laudantium, exercitationem obcaecati autem illum quod, numquam dolor eaque corrupti consequuntur?</p>
+    <button>Learn more!</button>
+    <footer>
+        <p>MDBootstrap</p>
+        <p>Kjawska 7/U5</p>
+        <p>03-738</p>
+        <p>Shakhawathosen@icloud.com</p>
+    </footer>
+</body>
+</html>
